@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #DDDDDD;
+  color: #F7EFE5;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  background-color: #7B8FA1;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 20%;
+  text-align: center;
+}
+ul:hover {
+  background-color: #263159;
+  transition: 1s;
+}

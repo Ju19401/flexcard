@@ -1,0 +1,12 @@
+.banner {
+  background-size: cover;
+  background-color: #F2E5E5;
+  padding: 1rem;
+}
+
+.banner h1 {
+  text-align: center;
+  color: #65647C;
+  font-size: 3rem;
+  font-family: 'Comorant Garamond', sans-serif;
+}

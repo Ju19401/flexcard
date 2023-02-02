@@ -1,0 +1,18 @@
+.card-product img {
+  width: 30%;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.card-product {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  background-color: #F0EBE3;
+  border-radius: 1rem;
+}
+
+.card-productinfos {
+  margin: 1rem;
+  color: #B2B2B2;
+}
