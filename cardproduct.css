@@ -23,6 +23,7 @@
   height: 200px;
   perspective: 1000px;
   display: inline-block;
+  text-align: center;
 }
 .flip-card-inner {
   position: relative;
@@ -45,10 +46,10 @@
 }
 .flip-card-front {
   background-color: #0F3D3E;
-  color: black;
+  color: #E9D5CA;
 }
 .flip-card-back {
   background-color: #0F3D3E;
-  color: white;
+  color: #E9D5CA;
   transform: rotateY(180deg);
 }
