@@ -23,7 +23,7 @@
   height: 200px;
   perspective: 1000px;
   text-align: center;
- padding: 2rem;
+  padding: 2rem;
 }
 .flip-card-inner {
   position: relative;
@@ -49,10 +49,23 @@
   color: #E9D5CA;
 }
 .flip-card-back {
-  background-image: url("https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
   background-size: cover;
-  color: #E9D5CA;
+  color: black;
   transform: rotateY(180deg);
+  position: fixed;
+}
+
+.flip-card-back img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  background-size: cover;
+}
+
+.flip-card-back p {
+  position: fixed;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .container2 {
@@ -67,7 +80,6 @@
 
 .cards2 h2 {
   color: #F39189;
-
 }
 
 .cards1 {
@@ -77,8 +89,10 @@
   margin: 0;
 }
 
-.cards2 {
+.container2 .cards2 {
   background-color: #59405C;
   padding: 2rem;
   border-radius: 3rem;
+  flex-basis: 4rem;
+  text-align: center;
 }
